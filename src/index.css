@@ -10,3 +10,11 @@
   --color-nero: #2a2929;
   --color-matterhorn: #514f4f;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
