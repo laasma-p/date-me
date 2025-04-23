@@ -17,13 +17,15 @@ const Hero = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-3 text-center">
         <a
-          href="#"
+          href="https://instagram.com/p.laasminja"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-6 py-2 text-xl font-semibold rounded-full bg-mulberry dark:bg-cotton-candy text-white-smoke dark:text-nero inline-block transition-transform transform hover:scale-105"
         >
           Button 1
         </a>
         <a
-          href="#"
+          href="#about"
           className="px-6 py-2 text-xl font-semibold rounded-full border border-mulberry dark:border-cotton-candy text-mulberry dark:text-cotton-candy inline-block transition-transform transform hover:scale-105"
         >
           Button 2
