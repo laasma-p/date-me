@@ -1,0 +1,9 @@
+{
+  "hero": {
+    "name": "Lasma",
+    "description": ["Built with", "and maybe a little too much caffeine."],
+    "info": ["Copenhagen", "Tea & techno enthusiast"],
+    "lets-connect": "Let's connect?",
+    "learn-more": "Learn more"
+  }
+}

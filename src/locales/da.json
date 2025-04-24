@@ -1,0 +1,9 @@
+{
+  "hero": {
+    "name": "Lasma",
+    "description": ["Bygget med", "og måske lidt for meget koffein."],
+    "info": ["København", "Te- og technoentusiast"],
+    "lets-connect": "Skal vi forbinde?",
+    "learn-more": "Lær mere"
+  }
+}

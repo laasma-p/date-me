@@ -1,0 +1,9 @@
+{
+  "hero": {
+    "name": "Lāsma",
+    "description": ["Veidota ar", "un varbūt nedaudz par daudz kofeīna."],
+    "info": ["Kopenhāgena", "Tējas un tehno entuziaste"],
+    "lets-connect": "Sazināmies?",
+    "learn-more": "Uzzini vairāk"
+  }
+}
