@@ -1,4 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 const Hero = () => {
+  const { t } = useTranslation();
+  const description = t("hero.description", { returnObjects: true });
+  const info = t("hero.info", { returnObjects: true });
+
   return (
     <section className="min-h-dvh flex flex-col items-center pt-8">
       <div className="max-w-sm aspect-square rounded-full overflow-hidden border-4 border-mulberry dark:border-cotton-candy mt-20">
@@ -10,10 +16,14 @@ const Hero = () => {
       </div>
       <div className="text-nero dark:text-white-smoke text-center">
         <h1 className="text-4xl text-mulberry dark:text-cotton-candy font-bold mt-4">
-          Title
+          {t("hero.name")}
         </h1>
-        <p className="text-lg sm:text-xl mt-2">Paragraph 1</p>
-        <p className="text-lg sm:text-xl mb-4">Paragraph 2</p>
+        <p className="text-lg sm:text-xl mt-2">
+          {description[0]} ❤️ {description[1]}
+        </p>
+        <p className="text-lg sm:text-xl mb-4">
+          📍 {info[0]} | age | {info[1]}
+        </p>
       </div>
       <div className="flex flex-wrap justify-center gap-3 text-center">
         <a
@@ -22,13 +32,13 @@ const Hero = () => {
           rel="noopener noreferrer"
           className="px-6 py-2 text-xl font-semibold rounded-full bg-mulberry dark:bg-cotton-candy text-white-smoke dark:text-nero inline-block transition-transform transform hover:scale-105"
         >
-          Button 1
+          {t("hero.lets-connect")} 💬
         </a>
         <a
           href="#about"
           className="px-6 py-2 text-xl font-semibold rounded-full border border-mulberry dark:border-cotton-candy text-mulberry dark:text-cotton-candy inline-block transition-transform transform hover:scale-105"
         >
-          Button 2
+          {t("hero.learn-more")} 📖
         </a>
       </div>
     </section>
