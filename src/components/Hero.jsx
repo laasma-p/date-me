@@ -1,9 +1,29 @@
 import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
+  const [age, setAge] = useState(null);
   const { t } = useTranslation();
   const description = t("hero.description", { returnObjects: true });
   const info = t("hero.info", { returnObjects: true });
+
+  useEffect(() => {
+    const birthday = new Date(1996, 1, 21);
+    const today = new Date();
+
+    let age = today.getFullYear() - birthday.getFullYear();
+
+    const hasHadBirthday =
+      today.getMonth() > birthday.getMonth() ||
+      (today.getMonth() === birthday.getMonth() &&
+        today.getDate() >= birthday.getDate());
+
+    if (!hasHadBirthday) {
+      age--;
+    }
+
+    setAge(age);
+  }, []);
 
   return (
     <section className="min-h-dvh flex flex-col items-center pt-8">
@@ -22,7 +42,7 @@ const Hero = () => {
           {description[0]} ❤️ {description[1]}
         </p>
         <p className="text-lg sm:text-xl mb-4">
-          📍 {info[0]} | age | {info[1]}
+          📍 {info[0]} | {age} | {info[1]}
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-3 text-center">
