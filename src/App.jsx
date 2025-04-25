@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Interests from "./components/Interests";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <main className="container mx-auto px-6">
         <Hero />
         <About />
+        <Interests />
       </main>
     </div>
   );
