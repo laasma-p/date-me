@@ -9,5 +9,16 @@
   "about": {
     "about-me": "Om mig",
     "description": "Nysgerrig af natur og altid på udkig efter noget nyt at dykke ned i. Jeg har mange interesser, der holder mig underholdt, fra vægtløftning til at forsvinde ned i YouTube kaninhuller. Uanset om det er at lære en ny færdighed eller bare slappe af, elsker jeg at udforske noget et eller andet sted. Lige nu lærer jeg fransk,"
+  },
+  "interests": {
+    "interests-heading": "Interesser og lidenskaber",
+    "interests-list": [
+      "Fitness",
+      "Techno",
+      "Tegning",
+      "Programmering",
+      "At se dokumentarer",
+      "At lære nye ting"
+    ]
   }
 }
