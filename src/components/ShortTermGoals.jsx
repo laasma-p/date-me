@@ -13,20 +13,37 @@ const ShortTermGoals = () => {
   });
 
   return (
-    <section>
-      <h2>{t("short-term-goals.short-term-goals-heading")}</h2>
-      <div>
-        <div>
-          <FontAwesomeIcon icon={faBanSmoking} />
-          <span>{shortTermGoals[0]}</span>
+    <section className="text-nero dark:text-white-smoke text-center max-w-4xl mx-auto py-4">
+      <h2 className="text-3xl font-semibold mb-4">
+        {t("short-term-goals.short-term-goals-heading")}
+      </h2>
+      <div className="flex flex-col items-center gap-2.5">
+        <div className="flex items-center gap-2 px-4 py-2 rounded-xl border border-mulberry dark:border-cotton-candy transition-transform transform hover:scale-105">
+          <FontAwesomeIcon
+            icon={faBanSmoking}
+            className="text-lg sm:text-xl text-mulberry dark:text-cotton-candy"
+          />
+          <span className="text-lg sm:text-xl font-semibold">
+            {shortTermGoals[0]}
+          </span>
         </div>
-        <div>
-          <FontAwesomeIcon icon={faSwatchbook} />
-          <span>{shortTermGoals[1]}</span>
+        <div className="flex items-center gap-2 px-4 py-2 rounded-xl border border-mulberry dark:border-cotton-candy transition-transform transform hover:scale-105">
+          <FontAwesomeIcon
+            icon={faSwatchbook}
+            className="text-lg sm:text-xl text-mulberry dark:text-cotton-candy"
+          />
+          <span className="text-lg sm:text-xl font-semibold">
+            {shortTermGoals[1]}
+          </span>
         </div>
-        <div>
-          <FontAwesomeIcon icon={faBrain} />
-          <span>{shortTermGoals[2]}</span>
+        <div className="flex items-center gap-2 px-4 py-2 rounded-xl border border-mulberry dark:border-cotton-candy transition-transform transform hover:scale-105">
+          <FontAwesomeIcon
+            icon={faBrain}
+            className="text-lg sm:text-xl text-mulberry dark:text-cotton-candy"
+          />
+          <span className="text-lg sm:text-xl font-semibold">
+            {shortTermGoals[2]}
+          </span>
         </div>
       </div>
     </section>
