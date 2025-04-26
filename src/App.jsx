@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Interests from "./components/Interests";
 import Favorites from "./components/Favorites";
+import ShortTermGoals from "./components/ShortTermGoals";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <About />
         <Interests />
         <Favorites />
+        <ShortTermGoals />
       </main>
     </div>
   );
