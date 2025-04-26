@@ -20,5 +20,21 @@
       "At se dokumentarer",
       "At lære nye ting"
     ]
+  },
+  "favorites": {
+    "favorites-heading": "Yndlingsting",
+    "favorites-description": "Here er nogle af mine yndlingsting der til dels definerer mig, og hvem jeg er i dag.",
+    "favorites-list": [
+      ["Film", "Blow"],
+      ["Farve", "Grøn"],
+      ["Ret", "Pomfritter"],
+      ["Sprog", "Russisk"],
+      ["Cocktail", "Mojito"],
+      ["Dyr", "En hund"],
+      ["Sæson", "Vinter"],
+      ["Drikkevare", "Vand"],
+      ["Sport", "Ishockey"],
+      ["Bog", "Rosens navn"]
+    ]
   }
 }

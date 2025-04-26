@@ -20,5 +20,21 @@
       "Dokumentālo filmu skatīšanās",
       "Jaunu prasmju apgūšana"
     ]
+  },
+  "favorites": {
+    "favorites-heading": "Mīļākās lietas",
+    "favorites-description": "Šeit ir dažas no manām mīļākajām lietām, kas daļēji padara mani par to, kas es esmu šodien.",
+    "favorites-list": [
+      ["Filma", "Blow"],
+      ["Krāsa", "Zaļa"],
+      ["Ēdiens", "Frī kartupeļi"],
+      ["Valoda", "Krievu"],
+      ["Kokteilis", "Mohito"],
+      ["Dzīvnieks", "Suns"],
+      ["Gadalaiks", "Ziema"],
+      ["Dzēriens", "Ūdens"],
+      ["Sports", "Hokejs"],
+      ["Grāmata", "Rozes vārds"]
+    ]
   }
 }
