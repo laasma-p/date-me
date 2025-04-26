@@ -20,5 +20,21 @@
       "Watching documentaries",
       "Learning new things"
     ]
+  },
+  "favorites": {
+    "favorites-heading": "Favorites",
+    "favorites-description": "Here are some of my favorites that partly define me and who I am today.",
+    "favorites-list": [
+      ["Movie", "Blow"],
+      ["Color", "Green"],
+      ["Food", "French fries"],
+      ["Language", "Russian"],
+      ["Cocktail", "Mojito"],
+      ["Animal", "Dog"],
+      ["Season", "Winter"],
+      ["Beverage", "Water"],
+      ["Sport", "Ice hockey"],
+      ["Book", "The Name of the Rose"]
+    ]
   }
 }
