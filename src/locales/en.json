@@ -36,5 +36,13 @@
       ["Sport", "Ice hockey"],
       ["Book", "The Name of the Rose"]
     ]
+  },
+  "short-term-goals": {
+    "short-term-goals-heading": "Short-term goals",
+    "short-term-goals-list": [
+      "Quit smoking for good",
+      "Learn digital drawing",
+      "Master Python"
+    ]
   }
 }
