@@ -4,6 +4,7 @@ import Interests from "./components/Interests";
 import Favorites from "./components/Favorites";
 import ShortTermGoals from "./components/ShortTermGoals";
 import IdealPartner from "./components/IdealPartner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <ShortTermGoals />
         <IdealPartner />
       </main>
+      <Footer />
     </div>
   );
 }
