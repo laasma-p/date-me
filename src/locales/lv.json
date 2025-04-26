@@ -36,5 +36,13 @@
       ["Sports", "Hokejs"],
       ["Grāmata", "Rozes vārds"]
     ]
+  },
+  "short-term-goals": {
+    "short-term-goals-heading": "Īstermiņa mērķi",
+    "short-term-goals-list": [
+      "Atmest smēķēšanu uz visiem laikiem",
+      "Apgūt digitālo zīmēšanu",
+      "Iemācīties \"Pitonu\""
+    ]
   }
 }

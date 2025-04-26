@@ -36,5 +36,13 @@
       ["Sport", "Ishockey"],
       ["Bog", "Rosens navn"]
     ]
+  },
+  "short-term-goals": {
+    "short-term-goals-heading": "Kortsigtede mål",
+    "short-term-goals-list": [
+      "Stop med at ryge for altid",
+      "Lær digital tegning",
+      "Bliv ekspert i Python"
+    ]
   }
 }
