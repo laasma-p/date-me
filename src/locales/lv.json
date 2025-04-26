@@ -53,5 +53,9 @@
       "Mīl suņus (šis is obligāti, protams)",
       "Tetovējumi ir plusiņš (bet noteikti ne obligāti!)"
     ]
+  },
+  "footer": {
+    "footer-text": ["Radīts ar", "no Lāsmas"],
+    "copyright": "Visas tiesības aizsargātas."
   }
 }
