@@ -53,5 +53,9 @@
       "Loves dogs (mandatory, obviously)",
       "Tattoos are a plus (but not a must!)"
     ]
+  },
+  "footer": {
+    "footer-text": ["Made with", "by Lasma"],
+    "copyright": "All rights reserved."
   }
 }

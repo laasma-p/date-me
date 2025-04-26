@@ -53,5 +53,9 @@
       "Elsker hunde (obligatorisk krav, selvfølgelig)",
       "Tatoveringer er et stort plus (men ikke et krav!)"
     ]
+  },
+  "footer": {
+    "footer-text": ["Lavet med", "af Lasma"],
+    "copyright": "Alle rettigheder forbeholdes."
   }
 }
