@@ -3,6 +3,7 @@ import About from "./components/About";
 import Interests from "./components/Interests";
 import Favorites from "./components/Favorites";
 import ShortTermGoals from "./components/ShortTermGoals";
+import IdealPartner from "./components/IdealPartner";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Interests />
         <Favorites />
         <ShortTermGoals />
+        <IdealPartner />
       </main>
     </div>
   );
