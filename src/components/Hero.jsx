@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
+import ThemeSwitcher from "../UI/ThemeSwitcher";
 
 const Hero = () => {
   const [age, setAge] = useState(null);
@@ -27,6 +28,9 @@ const Hero = () => {
 
   return (
     <section className="min-h-dvh flex flex-col items-center pt-8">
+      <div className="absolute top-4 right-4">
+        <ThemeSwitcher />
+      </div>
       <div className="max-w-sm aspect-square rounded-full overflow-hidden border-4 border-mulberry dark:border-cotton-candy mt-20">
         <img
           src="https://placehold.co/400"
