@@ -19,8 +19,14 @@ const ThemeSwitcher = () => {
   };
 
   return (
-    <button onClick={themeToggleHandler}>
-      <FontAwesomeIcon icon={theme === "light" ? faMoon : faSun} />
+    <button
+      onClick={themeToggleHandler}
+      className="text-nero dark:text-white-smoke cursor-pointer"
+    >
+      <FontAwesomeIcon
+        icon={theme === "light" ? faMoon : faSun}
+        className="text-xl"
+      />
     </button>
   );
 };
