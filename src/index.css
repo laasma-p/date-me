@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-lavender-blush: #ffedfa;
   --color-cotton-candy: #ffb8e0;
